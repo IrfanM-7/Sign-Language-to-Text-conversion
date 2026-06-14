@@ -6,6 +6,13 @@ A real-time sign language recognition system built using **MediaPipe**, **OpenCV
 
 ---
 
+> [!NOTE]
+> **Research Publication**  
+> Our research paper **"Real-Time Sign Language to Text Conversion Using Mediapipe Hand Landmarks and Random Forest Classifier"** has been published in the *2026 6th International Conference on Trends in Material Science and Inventive Materials (ICTMIM)*.  
+> 🔗 **[Read the paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11507737)**
+
+---
+
 ## 🌟 Key Features
 - **Real-Time Hand Tracking**: Leverages Google's MediaPipe for highly accurate, low-latency hand landmark detection.
 - **Robust Classification**: Uses a Random Forest Classifier to distinguish between complex sign language gestures based on extracted coordinate geometry.
@@ -79,6 +86,31 @@ The model was trained on a custom ASL dataset using the following features:
 *   Extracting 21 3D landmarks for a single hand using MediaPipe.
 *   The raw coordinates are normalized and fed into an SKLearn Random Forest.
 *   Training metrics and grid-search cross-validation approaches can be reviewed in the provided Jupyter notebook.
+
+## 📄 Citation
+
+If you use this work or find our research helpful, please cite our paper:
+
+### IEEE Format
+```text
+Shri Sudarsana H., Sameera M., Syed Irfan M. and Thurai Pandian M., "Real-Time Sign Language to Text Conversion Using Mediapipe Hand Landmarks and Random Forest Classifier," 2026 6th International Conference on Trends in Material Science and Inventive Materials (ICTMIM), Kanyakumari, India, 2026, pp. 1507-1512, doi: 10.1109/ICTMIM68190.2026.11507737.
+```
+
+### BibTeX
+```bibtex
+@INPROCEEDINGS{11507737,
+  author={Shri Sudarsana H. and Sameera M. and Syed Irfan M. and Thurai Pandian M.},
+  booktitle={2026 6th International Conference on Trends in Material Science and Inventive Materials (ICTMIM)}, 
+  title={Real-Time Sign Language to Text Conversion Using Mediapipe Hand Landmarks and Random Forest Classifier}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1507-1512},
+  keywords={Hands;Sign language;Modeling;Timing;Real-time systems;Random forests;Machine learning;Accuracy;Computers;Printing},
+  doi={10.1109/ICTMIM68190.2026.11507737}}
+```
+
+---
 
 ## 🤝 Contributing
 Contributions are welcome! If you want to add support for more gestures, improve the UI, or port the model to a Deep Learning architecture (like an LSTM or Transformer), feel free to open a Pull Request.
